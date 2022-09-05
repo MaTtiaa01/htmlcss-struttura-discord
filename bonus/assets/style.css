@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* #region Utilities */
+
+.container{
+    width: 80%;
+    max-width:1200px;
+    margin: auto;
+}
+
+.container-fluid{
+    width: 100%;
+}
+
+.row{
+    display: flex;
+}
+
+.col-1{
+    width: calc((100% / 12) * 1);
+}
+
+.col-3{
+    width: calc((100% / 12) * 3);
+}
+
+.col-4{
+    width: calc((100% / 12) * 4);
+}
+
+.col-6{
+    width: calc((100% / 12) * 6);
+}
+
+.col-9{
+    width: calc((100% / 12) * 9);
+}
+/* #endregion utilities */
+
+/* #region debug */
+
+.debug header{
+    background-color: aqua;
+}
+
+.debug [class^="col-"]{
+    background-color: red;
+    border: 2px solid;
+}
+
+.debug .container-fluid{
+    background-color: blue;
+    border: 2px solid;
+}
+
+.debug .container{
+    background-color: blueviolet;
+
+}
+
+.debug p{
+    background-color: green;
+}
+
+/* #endregion debug */
+
+header > .container{
+    padding: 1rem 0;
+    
+}
+
+main > .container-fluid{
+    padding: 1rem;
+}
+
+footer{
+    background-color: black;
+}

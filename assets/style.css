@@ -12,6 +12,10 @@
     margin: auto;
 }
 
+.container-fluid{
+    width: 100%;
+}
+
 .row{
     display: flex;
 }
@@ -31,6 +35,10 @@
 .col-6{
     width: calc((100% / 12) * 6);
 }
+
+.col-9{
+    width: calc((100% / 12) * 9);
+}
 /* #endregion utilities */
 
 /* #region debug */
@@ -44,8 +52,27 @@
     border: 2px solid;
 }
 
+.debug .container-fluid{
+    background-color: blue;
+    border: 2px solid;
+}
+
+.debug .container{
+    background-color: blueviolet;
+
+}
+
 /* #endregion debug */
 
 header > .container{
     padding: 1rem 0;
+    
+}
+
+main > .container-fluid{
+    padding: 1rem;
+}
+
+footer{
+    background-color: black;
 }

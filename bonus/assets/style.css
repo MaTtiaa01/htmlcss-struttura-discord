@@ -72,18 +72,19 @@
 
 /* #region header */
 
+
 header{
     
-    background-color: blue;
+   background-color: blue;
 }
 header > .container{
     padding: 1rem 0;
     
 }
-
-header .row{
-    justify-content: space-between;
+header .col-3, header .col-6{
+    align-self: center;
 }
+
 header a{
     text-decoration: none;
     color: white;
@@ -98,13 +99,49 @@ header button{
     border-radius: 30px;
 }
 
+header a:hover{
+    font-weight: bolder;
+}
 
 /* #endregion header */
+
+/* #region main */
 main > .container-fluid{
     padding: 1rem;
 }
 
+.jumbo{
+    text-align: center;
+    color: white;
+    background-image: url(./img/jumbo.png);
+    background-size: cover;
+    height: 380px;
+}
 
+.jumbo  p{
+    margin-top: 40px;
+    padding: 20px;
+}
+   
+#mac_button{
+    background-color: white;
+    padding: 0.5rem  0.7rem;
+    border: 1px solid white;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
+#browser_button{
+    background-color: black;
+    color: white;
+    padding: 0.5rem  0.7rem;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+
+
+/* #endregion main */
 
 footer{
     background-color: black;

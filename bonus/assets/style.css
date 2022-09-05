@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 /* #region Utilities */
 
 .container{
@@ -68,14 +69,42 @@
 
 /* #endregion debug */
 
+
+/* #region header */
+
+header{
+    
+    background-color: blue;
+}
 header > .container{
     padding: 1rem 0;
     
 }
 
+header .row{
+    justify-content: space-between;
+}
+header a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    
+}
+
+header button{
+    background-color: white;
+    padding: 0.5rem  0.7rem;
+    border: 1px solid;
+    border-radius: 30px;
+}
+
+
+/* #endregion header */
 main > .container-fluid{
     padding: 1rem;
 }
+
+
 
 footer{
     background-color: black;

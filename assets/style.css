@@ -62,6 +62,10 @@
 
 }
 
+.debug p{
+    background-color: green;
+}
+
 /* #endregion debug */
 
 header > .container{

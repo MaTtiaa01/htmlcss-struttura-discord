@@ -74,8 +74,9 @@
 
 
 header{
-    
-   background-color: blue;
+    position: absolute;
+    top: 0;
+   width: 100%;
 }
 header > .container{
     padding: 1rem 0;
@@ -122,7 +123,10 @@ main > .container-fluid{
     margin-top: 40px;
     padding: 20px;
 }
-   
+
+.jumbo_text{
+    margin-top: 60px;
+}
 #mac_button{
     background-color: white;
     padding: 0.5rem  0.7rem;
